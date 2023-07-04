@@ -1,0 +1,23 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .event-name {
+    color: black;
+  }
+  .link {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+  }
+  
+  .link:hover {
+    transform: scale(1.1);
+    /* Add any hover styles if desired */
+  }
+  

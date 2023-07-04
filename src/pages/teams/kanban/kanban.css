@@ -1,0 +1,19 @@
+/* Equivalent CSS for Tailwind CSS classes */
+.kanban {
+    margin: 0.5rem; /* m-2 */
+  }
+  
+  @media (min-width: 768px) {
+    .kanban {
+      margin: 2.5rem; /* md:m-10 */
+      padding: 2.5rem; /* md:p-10 */
+    }
+  }
+  
+  .kanban {
+    margin-top: 6rem; /* mt-24 */
+    padding: 0.5rem; /* p-2 */
+    background-color: #fff; /* bg-white */
+    border-radius: 1.5rem; /* rounded-3xl */
+  }
+  
